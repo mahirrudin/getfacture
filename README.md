@@ -170,9 +170,8 @@ Program ini dirancang untuk membaca **Faktur Pajak elektronik** (e-Faktur) dari 
 getfacture/
 ├── main.go            # Source code versi Go utama
 ├── verify_output.go   # Source code utility untuk membandingkan output Go dan Python
-├── getfacture.py      # Versi Python
 ├── pdftotext.exe      # Binary ekstensi Xpdf parser yang diperlukan oleh Go
-├── getfacture.exe     # Binary executable ekstrak faktur yang sudah dicompile
+├── getfacture.exe     # Binary executable yang sudah dicompile
 ├── go.mod             # Go module
 ├── go.sum             # Go dependencies checksum
 └── README.md          # Dokumentasi
